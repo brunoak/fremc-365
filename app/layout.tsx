@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "Fremc 365 - Recrutamento e Seleção",
   description: "Plataforma de recrutamento para empresas chinesas no Brasil.",
+  icons: {
+    icon: "/logo-fremc.png",
+  },
 };
 
 export default function RootLayout({
